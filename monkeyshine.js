@@ -29,7 +29,7 @@ setTimeout(function(){
 
 // Replace text entered by the user with the contents of the TEXT variable
 (function(){
-	var TEXT = 'i like frogs ';
+	var TEXT = 'Jayden ';
 	Array.prototype.slice.call(document.querySelectorAll('input[type=text],textarea')).map(function(el){
 		el.onkeypress=function(evt){
 			var charCode = typeof evt.which == "number" ? evt.which : evt.keyCode;
